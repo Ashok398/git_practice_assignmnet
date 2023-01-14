@@ -1,3 +1,4 @@
+
 let num=7;
 let count=0;
 
@@ -12,3 +13,4 @@ console.log(num,"isprime")
 else {
 console.log(num, "notprime")
 }
+
