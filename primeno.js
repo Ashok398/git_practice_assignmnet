@@ -1,8 +1,16 @@
-let num = 7;
-let count = 0;
-for(let i = 1 ; i<=num ; i++){
-if(num%i==0){
+
+let num=7;
+let count=0;
+
+for(let i=1; i<=num; i++){
+if(num%i===0){
 count++;
 }
 }
-(count==2) ? console.log(num,"is prime") : console.log(num, "is not prime");
+if(count==2){
+console.log(num,"isprime")
+}
+else {
+console.log(num, "notprime")
+}
+
